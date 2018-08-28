@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <mainMenu title="exercicios">
+        <topItems>
+            <item title="helloServlet" url="hello?nome=Touch&amp;sobrenome=Tecnologia"/>
+            <item title="helloJSPServlet" url="hellojsp"/>
+            <item title="jogosServlet" url="jogos"/>
+            <item title="helloStruts" url="struts/Hello.action"/>
+            <item title="helloGoodbyeStruts" url="struts/Hello!goodbye.action"/>
+        </topItems>
+    </mainMenu>
+
+    <mainMenu title="cadastroTWF">
+        <topItems>
+            <item title="jogos" url="Jogos.action"/>
+            <item title="desenvolvedoras" url="Desenvolvedoras.action"/>
+            <item title="plataformas" url="Plataformas.action"/>
+            <item title="fabricantes" url="Fabricantes.action"/>
+            <item title="pedidos" url="Pedidos.action"/>
+        </topItems>
+    </mainMenu>
+
+    <mainMenu title="cadastroCrud">
+        <topItems>
+            <item title="jogos" url="crud/Jogo.action"/>
+            <item title="desenvolvedoras" url="crud/Desenvolvedora.action"/>
+            <item title="plataformas" url="crud/Plataforma.action"/>
+            <item title="fabricantes" url="crud/Fabricante.action"/>
+            <item title="pedidos" url="crud/Pedido.action"/>
+        </topItems>
+    </mainMenu>
+</menu>
